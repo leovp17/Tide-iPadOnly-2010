@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*-----Start FONT INCLUDES-----*/
+@font-face {
+ font-family: 'ChaletParisNineteenSixty';
+ src: local('Chalet ParisNineteenSixty'), local('Chalet-ParisNineteenSixty'), url('../fonts/chalet-parisnineteensixty-webfont.svg#webfontwemrwIUa') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'HelveticaNeue65Medium';
+ src: local('Helvetica Neue LT Std'), local('HelveticaNeueLTStd-Md'), url('../fonts/helveticaneuemd-webfont.svg#webfontOmUr58dp') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+/*-----End FONT INCLUDES-----*/
+header, footer, section {
+	display:block;
+}
+body {
+	background-color:#FFF;
+	font-family: 'ChaletParisNineteenSixty';
+	font-weight:100;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+#tide_wrapper {
+	background:url(../images/bg_2.jpg) bottom no-repeat;
+	height:748px;
+	margin:0px;
+	width:980px;
+}
+header {
+	display:block;
+	overflow:hidden;
+}
+header #tide_logo_hdr {
+	background:url(../images/img_tide_logo.png) no-repeat;
+	float:left;
+	height:136px;
+	margin:20px 0 0 30px;
+	width:140px;
+}
+header #tide_title_small {
+	float:left;
+	margin:38px 0 0 232px;
+	text-transform:uppercase;
+}
+#tide_title_small h1 {
+	font-weight:100;
+	letter-spacing:2px;
+	margin:0px;
+	padding:0px;
+}
+#tide_title_small h1 .tide_test_small {
+	color:#000;
+	clear:left;
+	font-size:25px;
+	float:left;
+	letter-spacing:1px;
+	line-height:20px;
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+}
+#tide_title_small h1 .tide_stain_small {
+	color: #E00;
+	clear:left;
+	font-size:50px;
+	float:left;
+	line-height:48px;
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+}
+#tide_title_small h1 .tide_brain_small {
+	color:#F60;
+	clear:left;
+	font-size:48px;
+	float:left;
+	line-height:34px;
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+}
+section#tide_content {
+	clear:both;
+	margin:0 auto;
+	text-align: center;
+	width:940px;
+}
+section#tide_content p {
+	font-size:26px;
+}
+#tide_content .orange_txt {
+	color:#F60;
+}
+#tide_content .blue_txt {
+	color: #06C;
+}
+#tide_content .red_txt {
+	color: #D00;
+}
+#tide_content h2 {
+	text-align: center;
+	font-size:52px;
+	font-weight:100;
+	margin: 0px 0 0 0;
+	padding:0;
+	color:#D00;
+}
+#tide_content p.result_txt {
+	font-size: 28px;
+	margin: 0px;
+	padding: 15px 43px 0 0;
+}
+#tide_content .footnote {
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color: #7d7d7d;
+	margin:40px 0px 0px 0px;
+}
+form button {
+	background:url(../images/btn_c_back_to_home.png) 0px 0px no-repeat;
+	border:0px;
+	color: white;
+	font-size: 18px;
+	height: 45px;
+	margin-top:38px;
+	text-indent: -9999px;
+	width: 167px;
+}
+form button:hover, #tide_form button:focus, #tide_form button:active {
+	background:url(../images/btn_c_back_to_home.png) 0px -45px no-repeat;
+}
+footer {
+}

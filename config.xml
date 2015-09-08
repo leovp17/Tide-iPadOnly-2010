@@ -1,0 +1,107 @@
+<!DOCTYPE configuration SYSTEM "RootElement.dtd">
+<questions>
+	<question id="question_1">
+		<question_text>
+			<line>
+				<content class="orange_txt">Toothpaste</content>
+				<content>is effective at removing stains from ____.</content>
+			</line>
+		</question_text>
+		<options>
+			<opt is_correct="1">Wood</opt>
+			<opt is_correct="0">Aluminum </opt>
+			<opt is_correct="0">Leather</opt>
+		</options>
+		<error_message>Error</error_message>
+	</question>
+	<question id="question_2">
+		<question_text>
+			<line>
+				<content> Which of the following is </content>
+				<content class="orange_txt">NOT</content>
+				<content> a stain solution </content>
+			</line>
+		</question_text>
+		<options>
+			<opt is_correct="0">White vinegar</opt>
+			<opt is_correct="0">Molasses </opt>
+			<opt is_correct="0">Tide Stain Release </opt>
+			<opt is_correct="1">Baby powder </opt>
+		</options>
+		<error_message>Baby powder is the only solution listed that does nothing for grass stains.</error_message>
+	</question>
+	<question id="question_3">
+		<question_text>
+			<line><content class="red_txt">True or False:</content></line>
+			<line><content>A bloodstain can often be removed with the</content> </line>
+			<line><content>saliva of the person whose blood did the staining.</content></line>
+		</question_text>
+		<options>
+			<opt is_correct="1">True</opt>
+			<opt is_correct="0">False </opt>
+		</options>
+		<error_message>True. Though you may just want to stick to Tide.</error_message>
+	</question>
+	<question id="question_4">
+		<question_text>
+			<line>
+				<content>What type of stain can</content>
+				<content class="orange_txt">canned</content>
+			</line>
+			<line>
+				<content class="orange_txt">cheese spread</content>
+				<content>effectively remove?</content>
+			</line>
+		</question_text>
+		<options>
+			<opt is_correct="0">Ink</opt>
+			<opt is_correct="1">Grease</opt>
+			<opt is_correct="0">Blood</opt>
+		</options>
+		<error_message>Many swear by cheese sprays for grease stains.</error_message>
+	</question>
+	<question id="question_5">
+		<question_text>
+			<line>
+				<content>What are</content>
+				<content class="orange_txt">limes</content>
+				<content>good for, besides a drink garnish?</content>
+			</line>
+		</question_text>
+		<options>
+			<opt is_correct="0">Preventing scurvy</opt>
+			<opt is_correct="0">As a perfume</opt>
+			<opt is_correct="0">Removing armpit stains from clothes</opt>
+			<opt is_correct="1">All of these</opt>
+		</options>
+		<error_message> In fact, the answer is all of these!</error_message>
+	</question>
+	<question id="question_6">
+		<question_text>
+			<line>
+				<content>What's the best way to treat a</content>
+				<content class="orange_txt">bubblegum stain?</content>
+			</line>
+		</question_text>
+		<options>
+			<opt is_correct="0">White vinegar</opt>
+			<opt is_correct="0">Rubbing alcohol</opt>
+			<opt is_correct="1">An ice cube</opt>
+		</options>
+		<error_message>An ice cube helps with gum stickiness in a snap.</error_message>
+	</question>
+	<question id="question_7">
+		<question_text>
+			<line><content>According to Tide consumer research,</content></line>
+			<line><content>what percentage of stains are caused</content></line>
+			<line><content>by</content><content class="orange_txt">fresh food and drink?</content></line>
+		</question_text>
+		<options>
+			<opt is_correct="0">12%</opt>
+			<opt is_correct="0">42%</opt>
+			<opt is_correct="1">72%</opt>
+			<opt is_correct="0">100%</opt>
+		</options>
+		<error_message> Our research has shown the number at roughly 72%.</error_message>
+	</question>
+</questions>
